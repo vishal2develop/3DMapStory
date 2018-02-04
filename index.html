@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+		
+		<style>
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+
+.hidden {
+    display: none;
+}
+
+.image {
+    display: flex;
+    width: auto;
+    height: 100px;
+}
+
+.text {
+    display: flex;
+    padding-left: 10px;
+    font-size: 16px;
+    flex-direction: column;
+}
+
+.text > :not(:first-child) {
+    margin-top: 1em;
+}
+
+.popup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+		</style>
+		
+		 
+		
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.1/leaflet.css" rel="stylesheet" />
+        <title>Getting started with WRLD</title>
+    </head>
+    <body>
+        <div id="map"></div>
+		<audio class="track-1" src="./tracks/track-1.mp3" />
+        <audio class="track-2" src="./tracks/track-2.mp3" />
+        <audio class="track-3" src="./tracks/track-3.mp3" />
+        <audio class="track-4" src="./tracks/track-4.mp3" />
+        <audio class="track-5" src="./tracks/track-5.mp3" />
+        <audio class="track-6" src="./tracks/track-6.mp3" />
+        <audio class="track-7" src="./tracks/track-7.mp3" />
+        <audio class="track-8" src="./tracks/track-8.mp3" />
+        <audio class="track-9" src="./tracks/track-9.mp3" />
+        <audio class="track-10" src="./tracks/track-10.mp3" />
+		<img class="hidden jack-1" src="./images/jack-1.png" />
+        <img class="hidden chloe-1" src="./images/chloe-1.png" />
+		
+        <script src="app.js"></script>
+    </body>
+</html>
+
